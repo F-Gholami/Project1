@@ -1,0 +1,148 @@
+#mainContainer{
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-gap: none;
+	grid-auto-rows: minmax(100px, auto);
+	padding: 20px;
+	column-gap: 50px;
+	background-color: #eee;
+}
+
+img{
+	border-radius: 50%;
+	margin: 10px;
+	text-align: center;
+}
+
+#leftColumn{
+	background-color: #FFD700;
+	text-align: center;
+}
+
+.contact{
+	padding: 5px 50px 5px 50px; 
+    color: #FFD700;
+    background-color: #494959;
+}
+
+.aboutMe{
+	padding: 5px 50px 5px 50px; 
+    color: #FFD700;
+    background-color: #494959;
+}
+
+.hobbies{
+	padding: 5px 50px 5px 50px; 
+    color: #FFD700;
+    background-color: #494959;
+}
+
+#leftOne{
+	text-align: left;
+	margin-left: 50px;
+}
+
+#leftTwo{
+	text-align: justify;
+	margin: 10px;
+}
+
+
+#rightColumn{
+	margin-left: 50px;
+}
+
+a{
+	color: blue;
+}
+
+hr{
+	background-color: #FFD700;
+	border: none;
+	height: 2px;
+	margin-right: 20px;
+}
+
+
+#education{
+	list-style: none;
+}
+
+#educationYear{
+	list-style: none;
+}
+
+.custom-fa{
+	color: #FFD700;
+	font-size: 0.5em;
+	margin-right: 10px;
+}
+
+.custom-fas{
+	color: #FFD700;
+	font-size: 0.5em;
+	margin-right: 10px;
+}
+
+#exoerience{
+	list-style: none;
+}
+
+
+#experienceYear{
+	list-style: none;
+}
+
+#one{
+
+	border-spacing: 1px;
+}
+
+#subdivided1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#subdivided2{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+
+@media screen and (max-width:768px){ /*for tablets*/
+	#mainContainer{
+		width: 100%;
+	}
+
+	#leftColumn{
+		width: 30%;
+	}
+
+	#rightColumn{
+		width: 70%;
+	}
+
+}
+
+
+@media screen and (max-width: 640px){ /*for mobile phones*/
+	#leftColumn{
+		width: 100%;
+	}
+	#rightColumn{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 320px){ /*for minimum size of screen*/
+	#mainContainer{
+		width: 320px;
+	}
+}
+
+
+
+
+
